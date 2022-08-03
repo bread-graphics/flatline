@@ -1,0 +1,9 @@
+[package]
+name = "flatline"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies.geometry]
+package = "chalkboard-geometry"
+path = "../chalkboard/chalkboard-geometry"
+default-features = false
